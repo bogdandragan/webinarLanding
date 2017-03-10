@@ -1,0 +1,44 @@
+<div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                <h2>Zögern Sie bitte nicht sich jetzt zu registrieren!</h2>
+                
+                <form id="register-form" ng-submit="submitForm(form);">
+                    <div class="col-lg-6 form-group">
+                        <label class="text-info">Vorname*</label>
+                        <input required class="form-control" type="text" name="first_name" ng-model="form.first_name">
+                    </div>
+                    <div class="col-lg-6 form-group">
+                        <label class="text-info">E-Mail-Adresse*</label>
+                        <input required class="form-control" type="email" name="email" ng-model="form.email">
+                    </div>
+                    <div class="col-lg-6 form-group">
+                        <label class="text-info">Nachname*</label>
+                        <input required class="form-control" type="text" name="last_name" ng-model="form.last_name">
+                    </div>
+                    <div class="col-lg-6 form-group">
+                        <label class="text-info">Firma/Organisation*</label>
+                        <input required class="form-control" type="text" name="company" ng-model="form.company">
+                    </div>
+                    <div class="col-lg-6 form-group">
+                        <label class="text-info">Mobiltelefonnummer**</label>
+                        <input class="form-control" type="text" name="phone" ng-model="form.phone">
+                    </div>
+                    <div class="col-lg-6 form-group">
+                        <label class="text-info">Land</label>
+                        <input class="form-control" type="text" name="country" ng-model="form.country">
+                    </div>
+                    <div class="col-sm-12 col-lg-4"> 
+                        <p class="text-info"><em>**Wir werden Ihnen eine Erinnerungs-SMS vor dem Webinar schicken</em></p>
+                    </div>
+                    <div class="col-sm-12 col-lg-1 col-lg-push-7"> 
+                        <p class="text-info"><em>*Pflichtfeld</em></p>
+                    </div>
+                    <div class="col-sm-6 col-sm-offset-4 col-lg-4 col-lg-pull-4">
+                        <button class="btn btn-submit" type="submit" value="" name="submmit"><span>Jetz Anmelden</span></button>
+                    </div>
+                    
+                </form>
+
+            </div>
+
+        </div>

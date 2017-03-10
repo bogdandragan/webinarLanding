@@ -1,0 +1,353 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+/* font-family: "SegoeUIRegular"; */
+@font-face {
+    font-family: "SegoeUIRegular";
+    src: url("../fonts/SegoeUIRegular.eot");
+    src: url("../fonts/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIRegular.woff") format("woff"),
+    url("../fonts/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+   /* padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+   background-image: url('../img/bg.jpg');
+   font-family: "SegoeUIRegular", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: black;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 345px;
+    background: url('../img/header.png') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin: 0px -15px;
+}
+
+.business-header>.row {
+    padding: 0px 50px;
+    padding-top: 40px;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+.navbar-webcast{
+    background-image: url(../img/bg.jpg);
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-container{
+    background-color: #f1f1f1;
+}
+.navbar-right{
+    margin-right: 0 !important;
+}
+.navbar-webcast img{
+    padding: 25px 50px;
+}
+.webcast-theme {
+    /* text-shadow: 0 0 10px #000;*/
+    color: #3E3E3E;
+    margin-top: 14px;
+}
+.webinar{
+    margin: 35px;
+    color: #f3f3f3;
+    width: 307px;
+    height: 307px;
+    border-radius: 50%;
+    border-width: 9px;
+    border-style: double;
+    border-color: #f3f3f3;
+    background-color: #012168;
+}
+
+main.container{
+    background-color: #fff;
+    padding: 15px 50px;
+}
+
+.title{
+    position: absolute;
+    top: 20px;
+}
+.theme{
+    position:absolute;
+    bottom: 125px;
+}
+.link{
+    position:absolute;
+    top: 177px;
+}
+.date{
+    padding: 0 40px;
+    position:absolute;
+    top: 215px;
+}
+.text-17{
+    font-size: 17px;
+}
+.text-20{
+    font-size: 20px;
+}
+.text-30{
+    font-size: 30px;
+}
+.text-36{
+    font-size: 36px;
+}
+.text-50{
+    font-size: 50px;
+}
+.text-55{
+    font-size: 55px;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-bold{
+    font-weight: bold;
+}
+.webcast-header{
+    color: #088bcf;
+}
+h1{
+    font-size: 41px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+.text-blue{
+    color: #088bcf;
+}
+.text-orange{
+    color: #f3b623!important;
+}
+li p a, li p a:hover, li p a:visited{
+    color: #012168;
+    text-decoration: none;
+}
+h2 {
+    font-size: 41px;
+}
+main{
+    padding: 25px;
+}
+.tags {
+    /*padding-bottom: 6px;
+    background-color: #505454;
+    opacity: 0.7;*/
+    color: black;
+}
+.tags h1 
+.img-center {
+    margin: 0 auto;
+}
+ul{
+    padding-left: 25px;
+    color: blue;
+    margin-top: 15px;
+}
+
+li{
+    font-size: 20px;
+    color: black;
+}
+li span{
+    font-size: 20px;
+    color: black;
+}
+
+.tutor-point li{
+    list-style: none;
+    background: url('../img/webinar_icon.png') no-repeat 0 5px;
+    background-size: 25px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+.bullet-point li{
+    list-style: none;
+    background: url('../img/webinar_icon.png') no-repeat 0 5px;
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 25px; 
+}
+
+.bullet-point-page li{
+    list-style: none;
+    background: url('../img/webinar_icon.png') no-repeat 0 5px;
+    background-size: 20px;
+    padding-left: 30px;
+}
+
+.agenda-point li{
+    margin-top: 30px;
+}
+
+form{
+    margin-top: 50px;
+}
+
+.form-group {
+    padding-left: 0;
+}
+
+.text-info{
+    color: #333;
+    font-size: 19px;
+}
+
+.btn-submit{
+    background-color: #078bcf;
+    font-size: 30px;
+    color: #ececec;
+    width: 300px;
+    padding-top: 2px;
+    margin-top: 50px;
+}
+
+a, a:hover, a:visited {
+    color:#088bcf;
+}
+
+.note{
+    font-size: 18px;
+    margin-top: 30px;
+}
+footer{
+    background-color: #25252B;
+}
+
+.footer-left{
+    float: left;
+    padding: 35px 50px;
+}
+
+.footer-right{
+    float: right;
+    padding: 30px 50px;
+}
+
+.copyright{
+    color: #707071;
+    display: block;
+}
+
+.social-icons{
+    list-style-type: none;
+}
+
+.social-icons li{
+    float: left;
+}
+
+.social-icons li a {
+    width: 28px;
+    height: 28px;
+    opacity: 0.7;
+    background-image: url(../img/icons_social_white.png);
+    display: block;
+    padding: 0px 18px;
+}
+
+.twitter a{
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.facebook a{
+    background-position: 0 -80px;
+    background-repeat: no-repeat;
+}
+
+.in a{
+    background-position: 0 -400px;
+    background-repeat: no-repeat;
+}
+
+.alert p{
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 480px) {
+    .navbar-right{
+        float: right !important;
+    }
+
+    .navbar-left{
+        float: left !important;
+    }
+
+    .business-header h1{
+        font-size: 30px;
+    }
+
+    .navbar-webcast img {
+        width: 150px;
+        padding: 10px 5px !important;
+    }
+
+    main h1{
+        font-size: 32px;
+    }
+
+    main h2{
+        font-size: 26px;
+    }
+
+    .second-header{
+        font-size: 24px;
+    }
+
+    .footer-right {
+        float: left;
+        padding: 10px 50px;
+    }
+
+    .footer-left {
+        float: left;
+        padding: 20px 50px;
+    }
+
+    .text-55 {
+        font-size: 32px;
+    }
+
+    .text-36 {
+        font-size: 30px;
+    }
+
+    .text-30 {
+        font-size: 24px;
+    }
+
+    .navbar-webcast .row{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    h1.text-blue{
+        font-size: 35px;
+    }
+
+    main.container{
+        background-color: #fff;
+        padding: 15px 20px;
+    }
+
+}
